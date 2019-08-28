@@ -6,11 +6,33 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-   padding: 124px 0 135px 240px
+    padding: 124px 0 135px 0
 }
 .header_text{
-color: #ffffff;
-font-size: 48px;
-font-weight: 400;
-line-height: 58.99px;
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 58.99px;
+    font-weight: 400;
+    text-align: center;
+}
+.text1{
+    padding: 30px 103px 73px 49px;
+    color: #333333;
+}
+.text1_h1{
+    font-size: 30px;
+    line-height: 58.99px;
+    font-weight: 400;
+    pad: 0 0 35px 0;
+}
+.text1_p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;  
+}
+.span{
+    font-weight: 700;
+}
+.first{
+    margin-bottom: 33px;
 }
