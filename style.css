@@ -1,12 +1,14 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .header{
     background-image: url('image/Gradient_Map_1.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 124px 0 135px 0
+    padding: 124px 0 135px 0;
 }
 .header_text{
     color: #ffffff;
@@ -55,10 +57,24 @@ body{
 }
 .footer{
     background-color: #f5f5f5;
+    padding: 30px 50px 80px 50px;
+    border: 1px solid #dddddd;
 }
 .footer_text{
     color: #bebebe;
     font-size: 14px;
     font-weight: 400;
     line-height: 58.99px;
+}
+.navigation{
+}
+.nav_link{
+    color: #4183c4;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 58.99px;
+    text-decoration: none;
+}
+.footer_text, .navigation{
+    display: inline;
 }
