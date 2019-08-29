@@ -25,7 +25,6 @@ body{
     font-size: 30px;
     line-height: 58.99px;
     font-weight: 400;
-    pad: 0 0 35px 0;
 }
 .text1_p{
     font-size: 16px;
@@ -66,15 +65,17 @@ body{
     font-weight: 400;
     line-height: 58.99px;
 }
-.navigation{
-}
 .nav_link{
     color: #4183c4;
     font-size: 14px;
     font-weight: 400;
     line-height: 58.99px;
     text-decoration: none;
+    margin-right: 20px;
 }
 .footer_text, .navigation{
     display: inline;
+}
+.navigation{
+    float: right;
 }
